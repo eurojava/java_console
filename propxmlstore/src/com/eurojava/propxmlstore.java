@@ -4,15 +4,14 @@
  */
 package com.eurojava;
 
-import java.io.FileNotFoundException;
-import java.io.FileOutputStream;
-import java.io.IOException;
+import java.io.*;
+
 import java.util.Properties;
 
 public class propxmlstore {
 
     
-    public static void main(String[] args) throws FileNotFoundException, IOException {
+    public static void main(String[] args) throws Exception {
         // TODO code application logic here
         Properties properties = new Properties();
         properties.setProperty("database.type", "mysql");
