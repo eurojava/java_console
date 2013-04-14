@@ -12,7 +12,7 @@ public class FDMv {
     /**
      * @param args the command line arguments
      */
-    public static void main(String[] args) throws IOException {
+    public static void main(String[] args) throws Exception {
         
         File oldFile = new File("OldFile.txt");
         oldFile.createNewFile();
