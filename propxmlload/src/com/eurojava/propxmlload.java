@@ -34,6 +34,7 @@ public class propxmlload {
 
     public Properties readProperties() throws Exception {
         Properties properties = new Properties();
+        // !!!!
         FileInputStream fis = new FileInputStream("system.xml");
         properties.loadFromXML(fis);
 
