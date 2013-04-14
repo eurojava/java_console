@@ -11,7 +11,7 @@ public class IsArrayObj {
         Class clazz = matrix.getClass();
 
         //
-        // Check if the class object represents an array class
+        // 
         //
         if (clazz.isArray()) {
             System.out.println(clazz.getSimpleName() +
