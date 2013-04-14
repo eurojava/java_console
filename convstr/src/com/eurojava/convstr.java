@@ -9,17 +9,10 @@ import java.text.ParseException;
 import java.text.SimpleDateFormat;
 import java.util.Date;
 
-/**
- *
- * @author Darek
- */
 public class convstr {
 
-    /**
-     * @param args the command line arguments
-     */
     public static void main(String[] args) {
-        // TODO code application logic here
+
         DateFormat df = new SimpleDateFormat("dd/MM/yyyy");
         
         try {
@@ -27,7 +20,6 @@ public class convstr {
             System.out.println("Today = " + df.format(today));           
         } catch (ParseException e) {
             e.printStackTrace();
-        }
-                
+        }                
     }
 }
