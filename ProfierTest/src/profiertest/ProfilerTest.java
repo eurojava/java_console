@@ -7,6 +7,7 @@ package profiertest;
 /**
  *
  * @author Darek
+ * 
  */
 public class ProfilerTest {
 
