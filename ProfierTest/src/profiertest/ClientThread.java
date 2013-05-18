@@ -31,7 +31,6 @@ public class ClientThread extends Thread {
         this.clients = c;
     }
 
-    @Override
     public void run() {
         BufferedReader reader = null;
         BufferedWriter writer = null;
